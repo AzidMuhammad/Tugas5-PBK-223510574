@@ -6,13 +6,14 @@
 </template>
 
 <script>
-import { defineComponent } from 'vue';
+
 import CookiesAlert from './components/CookiesAlert.vue';
 import { RouterView } from 'vue-router';
 
-export default defineComponent({
+export default ({
   name: 'App',
   components: {
+    RouterView,
     CookiesAlert
   }
 });
