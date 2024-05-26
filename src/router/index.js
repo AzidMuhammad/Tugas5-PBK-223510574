@@ -19,52 +19,52 @@ const routes = [
   {
     path: '/wanita',
     name: 'WomanPage',
-    component: WomanPage
+    component: () => import('../views/WomanPage.vue')
   },
   {
     path: '/pria',
     name: 'ManPage',
-    component: ManPage
+    component: () => import('../views/ManPage.vue')
   },
   {
     path: '/pakaian',
     name: 'PakaianPage',
-    component: PakaianPage
+    component: () => import('../views/PakaianPage.vue')
   },
   {
     path: '/aksesoris-pria',
     name: 'AksesorisPriaPage',
-    component: AksesorisPriaPage
+    component: () => import('../views/AksesorisPriaPage.vue')
   },
   {
     path: '/tas-pria',
     name: 'TasPriaPage',
-    component: TasPriaPage
+    component: () => import('../views/TasPriaPage.vue')
   },
   {
     path: '/kolaborasi-pria',
     name: 'KolaborasiPriaPage',
-    component: KolaborasiPriaPage
+    component: () => import('../views/KolaborasiPriaPage.vue')
   },
   {
     path: '/pakaian-wanita',
     name: 'PakaianWanitaPage',
-    component: PakaianWanitaPage
+    component: () => import('../views/PakaianWanitaPage.vue')
   },
   {
     path: '/aksesoris-wanita',
     name: 'AksesorisWanitaPage',
-    component: AksesorisWanitaPage
+    component: () => import('../views/AksesorisWanitaPage.vue')
   },
   {
     path: '/tas-wanita',
     name: 'TasWanitaPage',
-    component: TasWanitaPage
+    component: () => import('../views/TasWanitaPage.vue')
   },
   {
     path: '/pasific-republic-wanita',
     name: 'KolaborasiWanitaPage',
-    component: KolaborasiWanitaPage
+    component: () => import('../views/KolaborasiWanitaPage.vue')
   }
 ];
 
