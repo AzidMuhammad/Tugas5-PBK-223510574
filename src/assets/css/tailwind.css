@@ -1,0 +1,12 @@
+/* src/assets/css/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Graphik Cond Web", "Graphik", Arial;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
