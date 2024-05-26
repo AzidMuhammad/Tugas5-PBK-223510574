@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="aksesoris-wanita">
         <Banner />
         <NavbarWomanPage />
         <div>

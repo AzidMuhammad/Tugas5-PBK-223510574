@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="pakaian-pria">
         <Banner />
         <NavbarManPage />
         <div>

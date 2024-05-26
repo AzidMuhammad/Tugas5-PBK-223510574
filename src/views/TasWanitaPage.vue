@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="tas-wanita">
         <Banner />
         <NavbarWomanPage />
         <div>

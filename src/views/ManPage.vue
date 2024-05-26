@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="pria">
     <Banner />
     <Navbar />
     <div>

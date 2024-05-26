@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="kolaborasi-pria">
         <Banner />
         <NavbarManPage />
         <div>

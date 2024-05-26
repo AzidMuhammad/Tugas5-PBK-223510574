@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="tas-pria">
         <Banner />
         <NavbarManPage />
         <div>
